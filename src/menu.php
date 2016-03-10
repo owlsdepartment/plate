@@ -13,7 +13,7 @@
  * Remove menu items.
  */
 add_action('admin_head', function () {
-    $items = reset(get_theme_support('plate-clean-menu'));
+    $items = reset(get_theme_support('plate-menu'));
 
     $elements = implode(', #menu-', $items);
 

@@ -13,7 +13,7 @@
  * Remove links from admin toolbar.
  */
 add_action('admin_bar_menu', function ($menu) {
-    $items = reset(get_theme_support('plate-clean-toolbar'));
+    $items = reset(get_theme_support('plate-toolbar'));
 
     foreach ($items as $item) {
         $menu->remove_node($item);

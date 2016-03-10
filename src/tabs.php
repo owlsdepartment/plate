@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-$tabs = reset(get_theme_support('plate-clean-tabs'));
+$tabs = reset(get_theme_support('plate-tabs'));
 
 if (in_array('help', $tabs)) {
     /*
