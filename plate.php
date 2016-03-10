@@ -15,7 +15,9 @@
  * Author: Vincent Klaiber
  * Author URI: https://vinkla.com
  * Version: 1.0.0
- * Plugin URI: https://github.com/wordplate/uuid
+ * Plugin URI: https://github.com/wordplate/plate
  */
 
-require_if_theme_supports('plate-footer-text', __DIR__.'/src/footer-text.php');
+add_action('after_setup_theme', function () {
+    require_if_theme_supports('plate-footer-text', __DIR__.'/src/footer-text.php');
+}, 100);
