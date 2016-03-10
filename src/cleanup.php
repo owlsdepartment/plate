@@ -29,3 +29,20 @@ add_filter('sanitize_file_name', function ($name) {
 add_filter('content_save_pre', function ($content) {
     return preg_replace('/<!--\[if gte mso.*?-->/ms', '', $content);
 });
+
+/*
+ * Add title tag theme support.
+ */
+add_theme_support('title-tag');
+
+/*
+ * Add HTML5 support.
+ */
+add_theme_support('html5', [
+    'caption',
+    'comment-form',
+    'comment-list',
+    'gallery',
+    'search-form',
+    'widgets',
+]);
