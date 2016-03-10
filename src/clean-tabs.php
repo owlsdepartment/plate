@@ -25,7 +25,7 @@ if (in_array('screen-options', $tabs)) {
     /*
      * Remove screen tab.
      */
-    add_filter('screen_options_show_screen', function (){
+    add_filter('screen_options_show_screen', function () {
         return false;
     });
 }
