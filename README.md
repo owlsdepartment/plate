@@ -98,7 +98,7 @@ add_theme_support('plate-login', '/assets/images/logo.png');
 ##### Set custom footer text
 
 ```php
-add_theme_support('plate-footer', 'Thank you for creating with <a href="https://wordplate.github.io" target="_blank">WordPlate</a>.');
+add_theme_support('plate-footer', 'Thank you for creating with WordPlate.');
 ```
 
 ## License
