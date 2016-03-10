@@ -15,13 +15,13 @@ composer require wordplate/plate
 
 ## Usage
 
-#### Cleanup and enhance WordPress defaults
+##### Cleanup and enhance WordPress defaults
 
 ```php
 add_theme_support('plate-cleanup');
 ```
 
-#### Remove menu items
+##### Remove menu items
 
 ```php
 add_theme_support('plate-clean-menu', [
@@ -32,7 +32,7 @@ add_theme_support('plate-clean-menu', [
 ]);
 ```
 
-#### Remove meta boxes in post editor
+##### Remove meta boxes in post editor
 
 ```php
 add_theme_support('plate-clean-editor', [
@@ -52,7 +52,7 @@ add_theme_support('plate-clean-editor', [
 ]);
 ```
 
-#### Remove dashboard widgets
+##### Remove dashboard widgets
 
 ```php
 add_theme_support('plate-clean-dashboard', [
@@ -68,7 +68,7 @@ add_theme_support('plate-clean-dashboard', [
 ]);
 ```
 
-#### Remove links from admin toolbar
+##### Remove links from admin toolbar
 
 ```php
 add_theme_support('plate-clean-dashboard', [
@@ -83,19 +83,19 @@ add_theme_support('plate-clean-dashboard', [
 ]);
 ```
 
-#### Remove dashboard tabs
+##### Remove dashboard tabs
 
 ```php
 add_theme_support('plate-clean-tabs', ['help', 'screen-options']);
 ```
 
-#### Set custom login logo
+##### Set custom login logo
 
 ```php
 add_theme_support('plate-login', '/assets/images/logo.png');
 ```
 
-#### Set custom footer text
+##### Set custom footer text
 
 ```php
 add_theme_support('plate-footer', 'Thank you for creating with <a href="https://wordplate.github.io" target="_blank">WordPlate</a>.');
