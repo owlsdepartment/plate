@@ -19,5 +19,6 @@
  */
 
 add_action('after_setup_theme', function () {
+    require_if_theme_supports('plate-cleanup', __DIR__.'/src/cleanup.php');
     require_if_theme_supports('plate-footer-text', __DIR__.'/src/footer-text.php');
 }, 100);
