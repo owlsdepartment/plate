@@ -24,6 +24,13 @@ add_filter('sanitize_file_name', function ($name) {
 }, 10, 2);
 
 /*
+ * Remove the welcome panel.
+ */
+add_action('admin_init', function () {
+    remove_action('welcome_panel', 'wp_welcome_panel');
+});
+
+/*
  * Remove Microsoft Word formatting for TinyMCE.
  */
 add_filter('content_save_pre', function ($content) {
