@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of UUID.
+ * This file is part of Plate.
  *
  * (c) Vincent Klaiber <hello@vinkla.com>
  *
