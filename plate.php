@@ -11,7 +11,7 @@
 
 /*
  * Plugin Name: Plate
- * Description: The WordPlate framework helper plugin.
+ * Description: The WordPlate helper plugin.
  * Author: Vincent Klaiber
  * Author URI: https://vinkla.com
  * Version: 1.0.0

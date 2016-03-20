@@ -1,6 +1,6 @@
 # Plate
 
-The WordPlate framework helper plugin.
+The WordPlate helper plugin.
 
 [![Latest Version](https://img.shields.io/github/release/wordplate/plate.svg?style=flat)](https://github.com/wordplate/plate/releases)
 [![License](https://img.shields.io/packagist/l/wordplate/plate.svg?style=flat)](https://packagist.org/packages/wordplate/plate)

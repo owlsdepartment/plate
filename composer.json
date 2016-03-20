@@ -1,6 +1,6 @@
 {
     "name": "wordplate/plate",
-    "description": "The WordPlate framework helper plugin",
+    "description": "The WordPlate helper plugin",
     "keywords": ["wordplate", "plate", "wordpress", "plugin"],
     "type": "wordpress-plugin",
     "license": "MIT",
