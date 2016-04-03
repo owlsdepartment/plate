@@ -66,7 +66,7 @@ add_theme_support('plate-editor', [
 ]);
 ```
 
-#### `'plate-dashboard'`
+#### `plate-dashboard`
 
 This feature accepts an array of dashboard widgets you want to remove on the dashboard page.
 
