@@ -10,13 +10,6 @@
  */
 
 /*
- * Set custom jpeg picture quality.
- */
-add_filter('jpeg_quality', function () {
-    return 100;
-});
-
-/*
  * Remove special characters in file names.
  */
 add_filter('sanitize_file_name', function ($name) {
