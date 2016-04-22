@@ -13,9 +13,9 @@
  * Remove menu items.
  */
 add_action('admin_head', function () {
-    $items = reset(get_theme_support('plate-menu'));
+    $items = get_theme_support('plate-menu');
 
-    $elements = implode(', #menu-', $items);
+    $elements = implode(', #menu-', reset($items));
 
     echo sprintf('<style> #menu-%s { display: none !important; } </style>', $elements);
 });

@@ -29,9 +29,9 @@ add_action('admin_menu', function () {
         'trackbacksdiv' => 'post',
     ];
 
-    $boxes = reset(get_theme_support('plate-editor'));
+    $boxes = get_theme_support('plate-editor');
 
-    foreach ($boxes as $box) {
+    foreach (reset($boxes) as $box) {
         remove_meta_box($box, $types[$box], 'normal');
     }
 });

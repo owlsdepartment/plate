@@ -13,9 +13,9 @@
  * Set custom login logo.
  */
 add_action('login_head', function () {
-    $path = reset(get_theme_support('plate-login'));
+    $path = get_theme_support('plate-login');
 
-    echo "<style> .login h1 a { background-image: url($path); } </style>";
+    echo sprintf('<style> .login h1 a { background-image: url(%s); } </style>', reset($path));
 });
 
 /*

@@ -13,9 +13,9 @@
  * Remove links from admin toolbar.
  */
 add_action('admin_bar_menu', function ($menu) {
-    $items = reset(get_theme_support('plate-toolbar'));
+    $items = get_theme_support('plate-toolbar');
 
-    foreach ($items as $item) {
+    foreach (reset($items) as $item) {
         $menu->remove_node($item);
     }
 }, 999);

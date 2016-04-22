@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-$tabs = reset(get_theme_support('plate-tabs'));
+$tabs = get_theme_support('plate-tabs');
 
-if (in_array('help', $tabs)) {
+if (in_array('help', reset($tabs))) {
     /*
      * Remove help tab.
      */
@@ -21,7 +21,7 @@ if (in_array('help', $tabs)) {
     });
 }
 
-if (in_array('screen-options', $tabs)) {
+if (in_array('screen-options', reset($tabs))) {
     /*
      * Remove screen tab.
      */

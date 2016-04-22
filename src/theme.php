@@ -24,13 +24,6 @@ add_action('admin_init', function () {
 });
 
 /*
- * Remove Microsoft Word formatting for TinyMCE.
- */
-add_filter('content_save_pre', function ($content) {
-    return preg_replace('/<!--\[if gte mso.*?-->/ms', '', $content);
-});
-
-/*
  * Add title tag theme support.
  */
 add_theme_support('title-tag');
@@ -46,3 +39,10 @@ add_theme_support('html5', [
     'search-form',
     'widgets',
 ]);
+
+/*
+ * Remove Microsoft Word formatting for TinyMCE.
+ */
+add_filter('content_save_pre', function ($content) {
+    return preg_replace('/<!--\[if gte mso.*?-->/ms', '', $content);
+});
