@@ -14,6 +14,6 @@
  */
 add_filter('admin_footer_text', function () {
     $text = get_theme_support('plate-footer');
-    
+
     return reset($text);
 });
