@@ -17,20 +17,6 @@ composer require wordplate/plate
 
 Below is a list of handy helpers this plugins provides.
 
-#### `plate-theme`
-
-This feature will enhance the WordPress experience by:
-- Add HTML5 support.
-- Set JPEG picture quality to 100%.
-- Remove special characters in file names.
-- Remove the welcome panel.
-- Remove Microsoft Word formatting for TinyMCE.
-- Add title tag theme support.
-
-```php
-add_theme_support('plate-theme');
-```
-
 #### `plate-menu`
 
 This feature accepts an array of menu items you want to hide in the WordPress administrator dashboard.
@@ -99,14 +85,6 @@ add_theme_support('plate-toolbar', [
    'updates',
    'search',
 ]);
-```
-
-#### `plate-uuid`
-
-This feature will replace GUIDs with real UUIDs in the WordPress database. WordPress currently defaults to permalinks as unique identifiers.
-
-```php
-add_theme_support('plate-uuid');
 ```
 
 #### `plate-tabs`

@@ -11,9 +11,9 @@
 
 /*
  * Plugin Name: Plate
- * Description: The WordPlate helper plugin.
- * Author: Vincent Klaiber
- * Author URI: https://vinkla.com
+ * Description: A framework plugin for WordPlate.
+ * Author: WordPlate
+ * Author URI: https://wordplate.github.io
  * Version: 1.0.0
  * Plugin URI: https://github.com/wordplate/plate
  */
@@ -26,7 +26,5 @@ add_action('after_setup_theme', function () {
     require_if_theme_supports('plate-menu', __DIR__.'/src/menu.php');
     require_if_theme_supports('plate-permalink', __DIR__.'/src/permalink.php');
     require_if_theme_supports('plate-tabs', __DIR__.'/src/tabs.php');
-    require_if_theme_supports('plate-theme', __DIR__.'/src/theme.php');
     require_if_theme_supports('plate-toolbar', __DIR__.'/src/toolbar.php');
-    require_if_theme_supports('plate-uuid', __DIR__.'/src/uuid.php');
 }, 100);
