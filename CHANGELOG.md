@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.1.0 (upcoming)
+
+- Add multisite support
+
 ## 1.0.2 (released 2016-04-22)
 
 - Fix reset strict warning
