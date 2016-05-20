@@ -13,9 +13,22 @@
  * Set custom login logo.
  */
 add_action('login_head', function () {
-    $path = get_theme_support('plate-login');
+    $args = get_theme_support('plate-login');
 
-    echo sprintf('<style> .login h1 a { background-image: url(%s); } </style>', reset($path));
+    if (empty($args[0])) {
+        return;
+    }
+
+    $styles = [
+        sprintf('background-image: url(%s);', $args[0]),
+    ];
+
+    if (count($args) >= 2) {
+        $styles[] = sprintf('width: %dpx;', $args[1]);
+        $styles[] = sprintf('background-size: %dpx auto;', $args[1]);
+    }
+
+    echo sprintf('<style> .login h1 a { %s } </style>', implode(' ', $styles));
 });
 
 /*

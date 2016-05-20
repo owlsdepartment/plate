@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 2.0.1 (released 2016-05-20)
+
+- Add width support to login logo
+
 ## 2.0.0 (released 2016-04-28)
 
 - Move UUID to a plugin
