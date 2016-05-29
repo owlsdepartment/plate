@@ -2,6 +2,7 @@
 
 A framework plugin for WordPlate.
 
+[![StyleCI](https://styleci.io/repos/53593562/shield?style=flat)](https://styleci.io/repos/53593562)
 [![Latest Version](https://img.shields.io/github/release/wordplate/plate.svg?style=flat)](https://github.com/wordplate/plate/releases)
 [![License](https://img.shields.io/packagist/l/wordplate/plate.svg?style=flat)](https://packagist.org/packages/wordplate/plate)
 
