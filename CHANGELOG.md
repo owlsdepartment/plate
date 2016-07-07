@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 2.1.0 (upcoming)
+
+- Drop php 5.5 support
+
 ## 2.0.1 (released 2016-05-20)
 
 - Add width support to login logo
