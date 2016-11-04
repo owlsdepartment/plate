@@ -122,4 +122,4 @@ add_theme_support('plate-footer', 'Thank you for creating with WordPlate.');
 
 ## License
 
-Plate is licensed under [The MIT License (MIT)](LICENSE).
+[MIT](LICENSE) © [Vincent Klaiber](https://vinkla.com)
