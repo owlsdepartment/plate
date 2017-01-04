@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 2.2.0 (upcoming)
+
+- Drop php 5.6 support
+
 ## 2.1.1 (released 2016-08-30)
 
 - Fix plugins crash if no help_tabs
