@@ -9,6 +9,8 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types=1);
+
 $tabs = get_theme_support('plate-tabs');
 
 if (in_array('help', reset($tabs))) {

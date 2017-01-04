@@ -18,6 +18,8 @@
  * Plugin URI: https://github.com/wordplate/plate
  */
 
+declare(strict_types=1);
+
 add_action('after_setup_theme', function () {
     require_if_theme_supports('plate-dashboard', __DIR__.'/src/dashboard.php');
     require_if_theme_supports('plate-editor', __DIR__.'/src/editor.php');
