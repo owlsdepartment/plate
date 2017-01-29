@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## 2.2.0 (upcoming)
+## 2.2.0 (released 2017-01-29)
 
 - Drop php 5.6 support
 
