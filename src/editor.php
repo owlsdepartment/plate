@@ -37,3 +37,8 @@ add_action('admin_menu', function () {
         remove_meta_box($box, $types[$box], 'normal');
     }
 });
+
+// Sanitize file names on save.
+add_filter('sanitize_file_name', function ($name) {
+    return remove_accents($name);
+}, 10, 2);
