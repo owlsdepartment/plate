@@ -14,9 +14,7 @@ declare(strict_types=1);
 $tabs = get_theme_support('plate-tabs');
 
 if (in_array('help', reset($tabs))) {
-    /*
-     * Remove help tab.
-     */
+    // Remove help tab.
     add_filter('contextual_help', function ($old_help, $screen_id, $screen) {
         $screen->remove_help_tabs();
 
@@ -25,9 +23,7 @@ if (in_array('help', reset($tabs))) {
 }
 
 if (in_array('screen-options', reset($tabs))) {
-    /*
-     * Remove screen tab.
-     */
+    // Remove screen tab.
     add_filter('screen_options_show_screen', function () {
         return false;
     });

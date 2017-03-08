@@ -11,9 +11,7 @@
 
 declare(strict_types=1);
 
-/*
- * Remove dashboard widgets.
- */
+// Remove dashboard widgets.
 add_action('wp_dashboard_setup', function () {
     global $wp_meta_boxes;
 

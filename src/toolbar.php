@@ -11,9 +11,7 @@
 
 declare(strict_types=1);
 
-/*
- * Remove links from admin toolbar.
- */
+// Remove links from admin toolbar.
 add_action('admin_bar_menu', function ($menu) {
     $items = get_theme_support('plate-toolbar');
 

@@ -11,9 +11,7 @@
 
 declare(strict_types=1);
 
-/*
- * Set custom login logo.
- */
+// Set custom login logo.
 add_action('login_head', function () {
     $args = get_theme_support('plate-login');
 
@@ -33,16 +31,12 @@ add_action('login_head', function () {
     echo sprintf('<style> .login h1 a { %s } </style>', implode(' ', $styles));
 });
 
-/*
- * Set custom login logo url.
- */
+// Set custom login logo url.
 add_filter('login_headerurl', function () {
     return get_bloginfo('url');
 });
 
-/*
- * Set custom login error message.
- */
+// Set custom login error message.
 add_filter('login_errors', function () {
     return '<strong>Whoops!</strong> Looks like you missed something there. Have another go.';
 });

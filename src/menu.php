@@ -11,9 +11,7 @@
 
 declare(strict_types=1);
 
-/*
- * Remove menu items.
- */
+// Remove menu items.
 add_action('admin_head', function () {
     $items = get_theme_support('plate-menu');
 

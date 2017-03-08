@@ -11,9 +11,7 @@
 
 declare(strict_types=1);
 
-/*
- * Remove meta boxes in post editor.
- */
+// Remove meta boxes in post editor.
 add_action('admin_menu', function () {
     $types = [
         'categorydiv' => 'post',

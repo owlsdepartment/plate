@@ -11,9 +11,7 @@
 
 declare(strict_types=1);
 
-/*
- * Set custom footer text.
- */
+// Set a custom footer text.
 add_filter('admin_footer_text', function () {
     $text = get_theme_support('plate-footer');
 

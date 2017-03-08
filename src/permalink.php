@@ -11,9 +11,7 @@
 
 declare(strict_types=1);
 
-/*
- * Set default permalink structure.
- */
+// Set default permalink structure.
 add_action('admin_init', function () {
     global $wp_rewrite;
 
