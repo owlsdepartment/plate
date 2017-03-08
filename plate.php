@@ -14,7 +14,7 @@
  * Description: A framework plugin for WordPlate.
  * Author: WordPlate
  * Author URI: https://wordplate.github.io
- * Version: 2.2.0
+ * Version: 2.3.0
  * Plugin URI: https://github.com/wordplate/plate#readme
  */
 
