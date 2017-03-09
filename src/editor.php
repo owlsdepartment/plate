@@ -11,6 +11,8 @@
 
 declare(strict_types=1);
 
+use Illuminate\Support\Str;
+
 // Remove meta boxes in post editor.
 add_action('admin_menu', function () {
     $types = [
@@ -38,5 +40,9 @@ add_action('admin_menu', function () {
 
 // Sanitize file names on save.
 add_filter('sanitize_file_name', function ($name) {
-    return remove_accents($name);
+    $path = pathinfo($name);
+
+    $filename = preg_replace(sprintf('/.%s$/', $path['extension']), '', $name);
+
+	return sprintf('%s.%s', Str::slug($filename), $path['extension']);
 }, 10, 2);
