@@ -44,5 +44,5 @@ add_filter('sanitize_file_name', function ($name) {
 
     $filename = preg_replace(sprintf('/.%s$/', $path['extension']), '', $name);
 
-	return sprintf('%s.%s', Str::slug($filename), $path['extension']);
+    return sprintf('%s.%s', Str::slug($filename), $path['extension']);
 }, 10, 2);
