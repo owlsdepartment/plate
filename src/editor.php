@@ -42,6 +42,10 @@ add_action('admin_menu', function () {
 add_filter('sanitize_file_name', function ($name) {
     $path = pathinfo($name);
 
+    if (!isset($path['extension'])) {
+        return $name;
+    }
+
     $filename = preg_replace(sprintf('/.%s$/', $path['extension']), '', $name);
 
     return sprintf('%s.%s', Str::slug($filename), $path['extension']);
