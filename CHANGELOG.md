@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 2.3.2 (released 2017-03-14)
+
+- Fix bug when sanitizing files
+
 ## 2.3.1 (released 2017-03-09)
 
 - Fix bug when sanitizing files
