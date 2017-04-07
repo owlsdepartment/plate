@@ -1,6 +1,6 @@
 # Plate
 
-A framework plugin for WordPlate.
+> A theme support plugin for [WordPlate](https://wordplate.github.io).
 
 [![StyleCI](https://styleci.io/repos/53593562/shield?style=flat)](https://styleci.io/repos/53593562)
 [![Latest Version](https://img.shields.io/github/release/wordplate/plate.svg?style=flat)](https://github.com/wordplate/plate/releases)

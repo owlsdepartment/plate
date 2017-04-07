@@ -11,10 +11,10 @@
 
 /*
  * Plugin Name: Plate
- * Description: A framework plugin for WordPlate.
+ * Description: A theme support plugin for WordPlate.
  * Author: WordPlate
  * Author URI: https://wordplate.github.io
- * Version: 2.3.0
+ * Version: 2.3.2
  * Plugin URI: https://github.com/wordplate/plate#readme
  */
 
