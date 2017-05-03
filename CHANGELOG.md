@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 3.0.0 (upcoming)
+
+- Update remove menu pages
+
 ## 2.3.2 (released 2017-03-14)
 
 - Fix bug when sanitizing files
