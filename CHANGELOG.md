@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 3.0.1 (released 2017-05-03)
+
+- Update plugin version number
+
 ## 3.0.0 (released 2017-05-03)
 
 - Update remove menu pages
