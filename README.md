@@ -58,7 +58,7 @@ add_theme_support('plate-editor', [
 This feature accepts an array of dashboard widgets you want to remove on the dashboard page.
 
 ```php
-add_theme_support(''plate-dashboard'', [
+add_theme_support('plate-dashboard', [
   'dashboard_activity',
   'dashboard_incoming_links',
   'dashboard_plugins',
