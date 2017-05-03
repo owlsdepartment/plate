@@ -12,10 +12,10 @@
 declare(strict_types=1);
 
 // Remove menu items.
-add_action('admin_head', function () {
+add_action('admin_menu', function () {
     $items = get_theme_support('plate-menu');
 
-    $elements = implode(', #menu-', reset($items));
-
-    echo sprintf('<style> #menu-%s { display: none !important; } </style>', $elements);
+    foreach(reset($items) as $item) {
+        remove_menu_page($item);
+    }
 });

@@ -20,14 +20,14 @@ Below is a list of handy helpers this plugins provides.
 
 #### `plate-menu`
 
-This feature accepts an array of menu items you want to hide in the WordPress administrator dashboard.
+This feature accepts an array of slugs for menu items you want to hide in the WordPress administrator dashboard.
 
 ```php
 add_theme_support('plate-menu', [
-   'comments',
-   'dashboard',
-   'links',
-   'media',
+    'edit-comments.php', // comments
+    'index.php', // dashboard
+    'link-manager.php', // links
+    'upload.php', // media
 ]);
 ```
 
