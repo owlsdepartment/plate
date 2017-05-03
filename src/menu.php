@@ -15,7 +15,7 @@ declare(strict_types=1);
 add_action('admin_menu', function () {
     $items = get_theme_support('plate-menu');
 
-    foreach(reset($items) as $item) {
+    foreach (reset($items) as $item) {
         remove_menu_page($item);
     }
 });
