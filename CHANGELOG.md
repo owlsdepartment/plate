@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 3.0.2 (released 2017-11-10)
+
+- Remove illuminate dependency
+
 ## 3.0.1 (released 2017-05-03)
 
 - Update plugin version number
