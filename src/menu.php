@@ -16,28 +16,22 @@ add_action('admin_menu', function () {
     $items = get_theme_support('plate-menu');
 
     foreach (reset($items) as $item) {
-        if (strpos($item, '?') !== false) {
-            // edit.php?post_type=foo should be removed with remove_menu_page('edit.php?post_type=foo')
-            if (strpos($item, 'edit.php?post_type=') === 0) {
-                remove_menu_page($item);
-            } else {
-
-                $path = parse_url($item, PHP_URL_PATH);
-                $query = parse_url($item, PHP_URL_QUERY);
-                $query_value = explode('=', $query);
-                if (isset($query_value[1])) {
-                    $pageName = $query_value[1];
-
-                    // admin.php?page=foo should be removed with remove_menu_page('foo')
-                    if (strpos($item, 'admin.php') === 0) {
-                        remove_menu_page($pageName);
-                    } else {
-                        remove_submenu_page($path, $pageName);
-                    }
-                }
-            }
-        } else {
+        if (
+            !strpos($item, '?') ||
+            !strpos($item, 'edit.php?post_type=')
+        ) {
             remove_menu_page($item);
+            continue;
+        }
+
+        $path = parse_url($item, PHP_URL_PATH);
+        $query = parse_url($item, PHP_URL_QUERY);
+        $value = explode('=', $query);
+
+        if (isset($value[1])) {
+            $name = $value[1];
+
+            strpos($item, 'admin.php') ?  remove_submenu_page($path, $name) : remove_menu_page($name);
         }
     }
 }, PHP_INT_MAX);
