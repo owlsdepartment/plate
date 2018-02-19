@@ -17,8 +17,8 @@ add_action('admin_menu', function () {
 
     foreach (reset($items) as $item) {
         if (
-            !strpos($item, '?') ||
-            !strpos($item, 'edit.php?post_type=')
+            strpos($item, '?') === false ||
+            strpos($item, 'edit.php?post_type=') === 0
         ) {
             remove_menu_page($item);
             continue;
@@ -31,7 +31,7 @@ add_action('admin_menu', function () {
         if (isset($value[1])) {
             $name = $value[1];
 
-            strpos($item, 'admin.php') ? remove_submenu_page($path, $name) : remove_menu_page($name);
+            strpos($item, 'admin.php') !== 0 ? remove_submenu_page($path, $name) : remove_menu_page($name);
         }
     }
 }, PHP_INT_MAX);
