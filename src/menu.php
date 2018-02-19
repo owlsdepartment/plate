@@ -22,8 +22,8 @@ add_action('admin_menu', function () {
                 remove_menu_page($item);
             } else {
 
-                $path = parse_url($item,  PHP_URL_PATH);
-                $query = parse_url($item,  PHP_URL_QUERY);
+                $path = parse_url($item, PHP_URL_PATH);
+                $query = parse_url($item, PHP_URL_QUERY);
                 $query_value = explode('=', $query);
                 if (isset($query_value[1])) {
                     $pageName = $query_value[1];
