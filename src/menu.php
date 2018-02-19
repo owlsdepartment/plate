@@ -31,7 +31,7 @@ add_action('admin_menu', function () {
         if (isset($value[1])) {
             $name = $value[1];
 
-            strpos($item, 'admin.php') ?  remove_submenu_page($path, $name) : remove_menu_page($name);
+            strpos($item, 'admin.php') ? remove_submenu_page($path, $name) : remove_menu_page($name);
         }
     }
 }, PHP_INT_MAX);
