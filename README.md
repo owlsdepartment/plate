@@ -26,8 +26,11 @@ This feature accepts an array of slugs for menu items you want to hide in the Wo
 add_theme_support('plate-menu', [
     'edit-comments.php', // comments
     'index.php', // dashboard
-    'link-manager.php', // links
     'upload.php', // media
+    'edit.php?post_type=acf-field-group', // Custom post type
+    'tools.php?page=wp-migrate-db', // Plugin in Tools
+    'options-general.php?page=menu_editor', // Plugin in Settings
+    'admin.php?page=theseoframework-settings', // Plugin in menu root
 ]);
 ```
 
