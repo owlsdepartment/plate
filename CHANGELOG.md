@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 3.1.0 (released 2019-02-20)
+
+- Added support for sub-menus
+
 ## 3.0.2 (released 2017-11-10)
 
 - Remove illuminate dependency
