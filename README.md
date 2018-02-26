@@ -34,14 +34,6 @@ add_theme_support('plate-disable-menu', [
 ]);
 ```
 
-#### `plate-disable-api`
-
-This feature lets you [disable](https://www.ultimatewoo.com/disable-wordpress-rest-api) WordPress's built in [REST API](https://developer.wordpress.org/rest-api) if you don't want to use it.
-
-```php
-add_theme_support('plate-disable-api');
-```
-
 #### `plate-disable-editor`
 
 This feature accepts an array of panel boxes you want to disable when editing a post or a page in the administrator dashboard.
@@ -105,6 +97,14 @@ This feature accepts an array of tabs you want to disable in the administrator d
 
 ```php
 add_theme_support('plate-disable-tabs', ['help', 'screen-options']);
+```
+
+#### `plate-disable-api`
+
+This feature lets you [disable](https://www.ultimatewoo.com/disable-wordpress-rest-api) WordPress's built in [REST API](https://developer.wordpress.org/rest-api) if you don't want to or aren't using it.
+
+```php
+add_theme_support('plate-disable-api');
 ```
 
 #### `plate-permalink`
