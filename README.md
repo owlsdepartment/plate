@@ -64,21 +64,21 @@ add_theme_support('plate-editor', [
 ]);
 ```
 
-#### `plate-dashboard`
+#### `plate-disable-dashboard-widgets`
 
-This feature accepts an array of dashboard widgets you want to remove on the dashboard page.
+This feature accepts an array of dashboard widgets you want to disable on the administrator dashboard.
 
 ```php
-add_theme_support('plate-dashboard', [
-  'dashboard_activity',
-  'dashboard_incoming_links',
-  'dashboard_plugins',
-  'dashboard_recent_comments',
-  'dashboard_primary',
-  'dashboard_quick_press',
-  'dashboard_recent_drafts',
-  'dashboard_secondary',
-  //'dashboard_right_now',
+add_theme_support('plate-disable-dashboard-widgets', [
+  'activity',
+  'incoming_links',
+  'plugins',
+  'primary',
+  'quick_press',
+  'recent_comments',
+  'recent_drafts',
+  'secondary',
+  //'right_now',
 ]);
 ```
 
