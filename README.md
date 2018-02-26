@@ -8,15 +8,15 @@
 
 ## Installation
 
-Require this package, with [Composer](https://getcomposer.org/), in the root directory of your project.
+Require this package, with [Composer](https://getcomposer.org), in the root directory of your project.
 
 ```bash
-composer require wordplate/plate
+$ composer require wordplate/plate
 ```
 
 ## Theme Support
 
-Below is a list of handy helpers this plugins provides.
+Below is a list of handy helpers this plugins provides such as [disabling menu items](#plate-menu) and [dashboard widgets](#plate-disable-dashboard).
 
 #### `plate-menu`
 
@@ -36,7 +36,7 @@ add_theme_support('plate-menu', [
 
 #### `plate-disable-api`
 
-This feature lets you disable WordPress's built in [REST API](https://developer.wordpress.org/rest-api) if you aren't using it.
+This feature lets you [disable](https://www.ultimatewoo.com/disable-wordpress-rest-api) WordPress's built in [REST API](https://developer.wordpress.org/rest-api) if you don't want to use it.
 
 ```php
 add_theme_support('plate-disable-api');
@@ -64,12 +64,12 @@ add_theme_support('plate-editor', [
 ]);
 ```
 
-#### `plate-disable-dashboard-widgets`
+#### `plate-disable-dashboard`
 
-This feature accepts an array of dashboard widgets you want to disable on the administrator dashboard.
+This feature accepts an array of [dashboard widgets you want to disable](https://digwp.com/2014/02/disable-default-dashboard-widgets) on the administrator dashboard.
 
 ```php
-add_theme_support('plate-disable-dashboard-widgets', [
+add_theme_support('plate-disable-dashboard', [
   'activity',
   'incoming_links',
   'plugins',
