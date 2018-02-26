@@ -42,12 +42,12 @@ This feature lets you [disable](https://www.ultimatewoo.com/disable-wordpress-re
 add_theme_support('plate-disable-api');
 ```
 
-#### `plate-editor`
+#### `plate-disable-editor`
 
-This feature accepts an array of panel boxes you want to hide when editing a post or a page in the WordPress administrator dashboard.
+This feature accepts an array of panel boxes you want to disable when editing a post or a page in the administrator dashboard.
 
 ```php
-add_theme_support('plate-editor', [
+add_theme_support('plate-disable-editor', [
     'commentsdiv',
     'commentstatusdiv',
     'linkadvanceddiv',
@@ -101,7 +101,7 @@ add_theme_support('plate-disable-toolbar', [
 
 #### `plate-disable-tabs`
 
-This feature accepts an array of tabs you want to hide in the WordPress administrator dashboard.
+This feature accepts an array of tabs you want to disable in the administrator dashboard.
 
 ```php
 add_theme_support('plate-disable-tabs', ['help', 'screen-options']);
