@@ -70,15 +70,15 @@ This feature accepts an array of [dashboard widgets you want to disable](https:/
 
 ```php
 add_theme_support('plate-disable-dashboard', [
-  'activity',
-  'incoming_links',
-  'plugins',
-  'primary',
-  'quick_press',
-  'recent_comments',
-  'recent_drafts',
-  'secondary',
-  //'right_now',
+  'dashboard_activity',
+  'dashboard_incoming_links',
+  'dashboard_plugins',
+  'dashboard_primary',
+  'dashboard_quick_press',
+  'dashboard_recent_comments',
+  'dashboard_recent_drafts',
+  'dashboard_secondary',
+  //'dashboard_right_now',
 ]);
 ```
 
