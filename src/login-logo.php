@@ -13,7 +13,7 @@ declare(strict_types=1);
 
 // Set custom login logo.
 add_action('login_head', function () {
-    $args = get_theme_support('plate-login');
+    $args = get_theme_support('plate-login-logo');
 
     if (empty($args[0])) {
         return;
