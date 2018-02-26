@@ -22,6 +22,7 @@ declare(strict_types=1);
 
 add_action('after_setup_theme', function () {
     require_if_theme_supports('plate-dashboard', __DIR__.'/src/dashboard.php');
+    require_if_theme_supports('plate-disable-api', __DIR__.'/src/disable-api.php');
     require_if_theme_supports('plate-editor', __DIR__.'/src/editor.php');
     require_if_theme_supports('plate-footer-text', __DIR__.'/src/footer-text.php');
     require_if_theme_supports('plate-login-logo', __DIR__.'/src/login-logo.php');

@@ -2,8 +2,9 @@
 
 ## 4.0.0 (upcoming)
 
-- Rename plate-footer to plate-footer-text
-- Rename plate-login to plate-login-logo
+- Added plate-disable-api feature
+- Renamed plate-footer to plate-footer-text
+- Renamed plate-login to plate-login-logo
 
 ## 3.1.0 (released 2018-02-20)
 

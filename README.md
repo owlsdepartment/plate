@@ -34,6 +34,14 @@ add_theme_support('plate-menu', [
 ]);
 ```
 
+#### `plate-disable-api`
+
+This feature lets you disable WordPress's built in [REST API](https://developer.wordpress.org/rest-api) if you aren't using it.
+
+```php
+add_theme_support('plate-disable-api');
+```
+
 #### `plate-editor`
 
 This feature accepts an array of panel boxes you want to hide when editing a post or a page in the WordPress administrator dashboard.
@@ -107,20 +115,20 @@ This feature allows you to set the default permalink structure in the theme.
 add_theme_support('plate-permalink', '/%postname%/');
 ```
 
-#### `plate-login`
+#### `plate-login-logo`
 
 This feature allows you to replace the login WordPress logo with a custom one.
 
 ```php
-add_theme_support('plate-login', sprintf('%s/%s', get_template_directory_uri(), '/assets/images/logo.png'));
+add_theme_support('plate-login-logo', sprintf('%s/%s', get_template_directory_uri(), '/assets/images/logo.png'));
 ```
 
-#### `plate-footer`
+#### `plate-footer-text`
 
 This feature allows you to set a custom footer text in the WordPress administrator dashboard.
 
 ```php
-add_theme_support('plate-footer', 'Thank you for creating with WordPlate.');
+add_theme_support('plate-footer-text', 'Thank you for creating with WordPlate.');
 ```
 
 ## License
