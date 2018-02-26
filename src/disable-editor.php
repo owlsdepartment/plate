@@ -29,7 +29,7 @@ add_action('admin_menu', function () {
         'trackbacksdiv' => 'post',
     ];
 
-    $boxes = get_theme_support('plate-editor');
+    $boxes = get_theme_support('plate-disable-editor');
 
     foreach (reset($boxes) as $box) {
         remove_meta_box($box, $types[$box], 'normal');

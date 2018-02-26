@@ -4,9 +4,12 @@
 
 - Added plate-disable-api feature
 - Renamed plate-dashboard to plate-disable-dashboard
+- Renamed plate-editor to plate-disable-editor
 - Renamed plate-footer to plate-footer-text
 - Renamed plate-login to plate-login-logo
+- Renamed plate-menu to plate-disable-menu
 - Renamed plate-tabs to plate-disable-tabs
+- Renamed plate-toolbar to plate-disable-toolbar
 
 ## 3.1.0 (released 2018-02-20)
 

@@ -13,7 +13,7 @@ declare(strict_types=1);
 
 // Remove menu and submenu items.
 add_action('admin_menu', function () {
-    $items = get_theme_support('plate-menu');
+    $items = get_theme_support('plate-disable-menu');
 
     foreach (reset($items) as $item) {
         if (

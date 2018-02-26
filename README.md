@@ -16,14 +16,14 @@ $ composer require wordplate/plate
 
 ## Theme Support
 
-Below is a list of handy helpers this plugins provides such as [disabling menu items](#plate-menu) and [dashboard widgets](#plate-disable-dashboard).
+Below is a list of handy helpers this plugins provides such as [disabling menu items](#plate-disable-menu) and [dashboard widgets](#plate-disable-dashboard).
 
-#### `plate-menu`
+#### `plate-disable-menu`
 
-This feature accepts an array of slugs for menu items you want to hide in the WordPress administrator dashboard.
+This feature accepts an array of menu items you want to disable in the administrator dashboard.
 
 ```php
-add_theme_support('plate-menu', [
+add_theme_support('plate-disable-menu', [
     'edit-comments.php', // comments
     'index.php', // dashboard
     'upload.php', // media
@@ -82,12 +82,12 @@ add_theme_support('plate-disable-dashboard', [
 ]);
 ```
 
-#### `plate-toolbar`
+#### `plate-disable-toolbar`
 
-This feature accepts an array of menu toolbar items you want to hide in the WordPress administrator dashboard.
+This feature accepts an array of menu toolbar items you want to disable in the administrator dashboard.
 
 ```php
-add_theme_support('plate-toolbar', [
+add_theme_support('plate-disable-toolbar', [
    'comments',
    'wp-logo',
    'edit',
