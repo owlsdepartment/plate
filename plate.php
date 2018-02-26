@@ -23,7 +23,7 @@ declare(strict_types=1);
 add_action('after_setup_theme', function () {
     require_if_theme_supports('plate-disable-api', __DIR__.'/src/disable-api.php');
     require_if_theme_supports('plate-disable-dashboard', __DIR__.'/src/disable-dashboard.php');
-    require_if_theme_supports('plate-disable-editor', __DIR__.'/src/editor.php');
+    require_if_theme_supports('plate-disable-editor', __DIR__.'/src/disable-editor.php');
     require_if_theme_supports('plate-disable-menu', __DIR__.'/src/disable-menu.php');
     require_if_theme_supports('plate-disable-tabs', __DIR__.'/src/disable-tabs.php');
     require_if_theme_supports('plate-disable-toolbar', __DIR__.'/src/disable-toolbar.php');
