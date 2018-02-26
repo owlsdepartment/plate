@@ -99,12 +99,12 @@ add_theme_support('plate-toolbar', [
 ]);
 ```
 
-#### `plate-tabs`
+#### `plate-disable-tabs`
 
 This feature accepts an array of tabs you want to hide in the WordPress administrator dashboard.
 
 ```php
-add_theme_support('plate-tabs', ['help', 'screen-options']);
+add_theme_support('plate-disable-tabs', ['help', 'screen-options']);
 ```
 
 #### `plate-permalink`

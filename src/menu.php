@@ -21,6 +21,7 @@ add_action('admin_menu', function () {
             strpos($item, 'edit.php?post_type=') === 0
         ) {
             remove_menu_page($item);
+
             continue;
         }
 

@@ -5,6 +5,7 @@
 - Added plate-disable-api feature
 - Renamed plate-footer to plate-footer-text
 - Renamed plate-login to plate-login-logo
+- Renamed plate-tabs to plate-disable-tabs
 
 ## 3.1.0 (released 2018-02-20)
 

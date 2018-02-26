@@ -11,7 +11,7 @@
 
 declare(strict_types=1);
 
-$tabs = get_theme_support('plate-tabs');
+$tabs = get_theme_support('plate-disable-tabs');
 
 if (in_array('help', reset($tabs))) {
     // Remove help tab.
