@@ -27,9 +27,9 @@ add_action('wp_dashboard_setup', function () {
         'dashboard_secondary' => 'side',
     ];
 
-    $boxes = get_theme_support('plate-disable-dashboard');
+    $boxes = get_theme_support('plate-disable-dashboard')[0];
 
-    foreach (reset($boxes) as $box) {
+    foreach ($boxes as $box) {
         $position = $positions[$box] ?: 'normal';
 
         unset($wp_meta_boxes['dashboard'][$position]['core'][$box]);

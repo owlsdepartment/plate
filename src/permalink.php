@@ -15,7 +15,7 @@ declare(strict_types=1);
 add_action('admin_init', function () {
     global $wp_rewrite;
 
-    $pattern = get_theme_support('plate-permalink');
+    $pattern = get_theme_support('plate-permalink')[0];
 
-    $wp_rewrite->set_permalink_structure(reset($pattern));
+    $wp_rewrite->set_permalink_structure($pattern);
 });

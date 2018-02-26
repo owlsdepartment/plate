@@ -13,9 +13,9 @@ declare(strict_types=1);
 
 // Remove menu and submenu items.
 add_action('admin_menu', function () {
-    $items = get_theme_support('plate-disable-menu');
+    $items = get_theme_support('plate-disable-menu')[0];
 
-    foreach (reset($items) as $item) {
+    foreach ($items as $item) {
         if (
             strpos($item, '?') === false ||
             strpos($item, 'edit.php?post_type=') === 0
