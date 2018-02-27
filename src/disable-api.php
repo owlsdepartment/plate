@@ -11,14 +11,4 @@
 
 declare(strict_types=1);
 
-add_filter('rest_authentication_errors', function () {
-    $message = get_theme_support('plate-disable-api')[0];
-
-    if (empty($message)) {
-        $message = 'The REST API on this site has been disabled.';
-    }
-
-    return new WP_Error('rest_disabled', $message, [
-        'status' => rest_authorization_required_code(),
-    ]);
-});
+remove_action('rest_api_init', 'create_initial_rest_routes', 99);
