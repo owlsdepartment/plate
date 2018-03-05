@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## 4.0.0 (upcoming)
+## 4.0.0 (released 2018-03-05)
 
 - Added plate-disable-api feature
 - Renamed plate-dashboard to plate-disable-dashboard
