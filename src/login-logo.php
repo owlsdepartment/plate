@@ -20,6 +20,7 @@ add_action('login_head', function () {
     }
 
     $styles = [
+        'background-position: center;',
         sprintf('background-image: url(%s);', $args[0]),
     ];
 

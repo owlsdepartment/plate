@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 4.0.1 (released 2018-03-17)
+
+- Updated login logo positioning
+
 ## 4.0.0 (released 2018-03-05)
 
 - Added plate-disable-api feature
