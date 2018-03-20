@@ -21,12 +21,12 @@ add_action('login_head', function () {
 
     $styles = [
         'background-position: center;',
+        'background-size: contain;',
         sprintf('background-image: url(%s);', $args[0]),
     ];
 
     if (count($args) >= 2) {
         $styles[] = sprintf('width: %dpx;', $args[1]);
-        $styles[] = sprintf('background-size: %dpx auto;', $args[1]);
     }
 
     echo sprintf('<style> .login h1 a { %s } </style>', implode(' ', $styles));
