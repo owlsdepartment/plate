@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 4.0.3 (released 2018-06-20)
+
+- Updated REST API disable feature
+
 ## 4.0.2 (released 2018-03-20)
 
 - Added background-size contain to login logo
