@@ -84,6 +84,7 @@ This feature accepts an array of menu toolbar items you want to disable in the a
 
 ```php
 add_theme_support('plate-disable-toolbar', [
+   'archive',
    'comments',
    'wp-logo',
    'edit',
