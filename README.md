@@ -60,6 +60,14 @@ add_theme_support('plate-disable-editor', [
 ]);
 ```
 
+#### `plate-disable-gutenberg`
+
+This feature allows you to deregister Gutenberg features not disabled by the classic editor.
+
+```php
+add_theme_support('plate-disable-gutenberg');
+```
+
 #### `plate-disable-dashboard`
 
 This feature accepts an array of [dashboard widgets you want to disable](https://digwp.com/2014/02/disable-default-dashboard-widgets) on the administrator dashboard.
