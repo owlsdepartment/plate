@@ -14,7 +14,7 @@
  * Description: A theme support plugin for WordPlate.
  * Author: WordPlate
  * Author URI: https://wordplate.github.io
- * Version: 4.0.2
+ * Version: 4.1.0
  * Plugin URI: https://github.com/wordplate/plate#readme
  */
 

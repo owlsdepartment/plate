@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 4.1.0 (released 2019-01-12)
+
+- Added disable Gutenberg feature
+
 ## 4.0.3 (released 2018-06-20)
 
 - Updated REST API disable feature
