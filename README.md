@@ -146,4 +146,4 @@ add_theme_support('plate-footer-text', 'Thank you for creating with WordPlate.')
 
 ## License
 
-[MIT](LICENSE) © [Vincent Klaiber](https://vinkla.com)
+[MIT](LICENSE) © [Vincent Klaiber](https://doubledip.se)
