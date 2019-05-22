@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 5.0.0 (released 2019-05-22)
+
+- Remove disable Gutenberg feature
+- Remove PHP 7.1 support
+
 ## 4.1.0 (released 2019-01-12)
 
 - Added disable Gutenberg feature

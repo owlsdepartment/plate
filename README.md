@@ -31,10 +31,10 @@ add_theme_support('plate-disable-menu', [
     'edit-comments.php', // comments
     'index.php', // dashboard
     'upload.php', // media
-    'edit.php?post_type=acf-field-group', // Custom post type
-    'tools.php?page=wp-migrate-db', // Plugin in Tools
-    'options-general.php?page=menu_editor', // Plugin in Settings
-    'admin.php?page=theseoframework-settings', // Plugin in menu root
+    'edit.php?post_type=acf-field-group', // custom post type
+    'tools.php?page=wp-migrate-db', // plugin in tools
+    'options-general.php?page=menu_editor', // plugin in settings
+    'admin.php?page=theseoframework-settings', // plugin in menu root
 ]);
 ```
 
@@ -58,14 +58,6 @@ add_theme_support('plate-disable-editor', [
     //'categorydiv',
     //'tagsdiv-post_tag',
 ]);
-```
-
-#### `plate-disable-gutenberg`
-
-This feature allows you to deregister Gutenberg features not disabled by the classic editor.
-
-```php
-add_theme_support('plate-disable-gutenberg');
 ```
 
 #### `plate-disable-dashboard`
