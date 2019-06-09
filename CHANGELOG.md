@@ -4,7 +4,7 @@
 
 - Remove disable api feature
 - Remove disable tabs feature
-- Remove disable editor feature including file sanitizing
+- Remove disable editor feature including file sanitization
 
 ## 5.0.0 (released 2019-05-22)
 
