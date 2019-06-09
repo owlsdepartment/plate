@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 6.0.0 (released 2019-06-09)
+
+- Remove disable api feature
+- Remove disable tabs feature
+- Remove disable editor feature including file sanitizing
+
 ## 5.0.0 (released 2019-05-22)
 
 - Remove disable Gutenberg feature

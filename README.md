@@ -38,28 +38,6 @@ add_theme_support('plate-disable-menu', [
 ]);
 ```
 
-#### `plate-disable-editor`
-
-This feature accepts an array of panel boxes you want to disable when editing a post or a page in the administrator dashboard.
-
-```php
-add_theme_support('plate-disable-editor', [
-    'commentsdiv',
-    'commentstatusdiv',
-    'linkadvanceddiv',
-    'linktargetdiv',
-    'linkxfndiv',
-    'postcustom',
-    'postexcerpt',
-    'revisionsdiv',
-    'slugdiv',
-    'sqpt-meta-tags',
-    'trackbacksdiv',
-    //'categorydiv',
-    //'tagsdiv-post_tag',
-]);
-```
-
 #### `plate-disable-dashboard`
 
 This feature accepts an array of [dashboard widgets you want to disable](https://digwp.com/2014/02/disable-default-dashboard-widgets) on the administrator dashboard.
@@ -96,22 +74,6 @@ add_theme_support('plate-disable-toolbar', [
 ]);
 ```
 
-#### `plate-disable-tabs`
-
-This feature accepts an array of tabs you want to disable in the administrator dashboard.
-
-```php
-add_theme_support('plate-disable-tabs', ['help', 'screen-options']);
-```
-
-#### `plate-disable-api`
-
-This feature lets you [disable](https://www.ultimatewoo.com/disable-wordpress-rest-api) WordPress's built in [REST API](https://developer.wordpress.org/rest-api) if you don't want to or aren't using it.
-
-```php
-add_theme_support('plate-disable-api');
-```
-
 #### `plate-permalink`
 
 This feature allows you to set the default permalink structure in the theme.
@@ -125,7 +87,7 @@ add_theme_support('plate-permalink', '/%postname%/');
 This feature allows you to replace the login WordPress logo with a custom one.
 
 ```php
-add_theme_support('plate-login-logo', sprintf('%s/%s', get_template_directory_uri(), '/assets/images/logo.png'));
+add_theme_support('plate-login-logo', get_theme_file_uri('assets/images/logo.png'));
 ```
 
 #### `plate-footer-text`
