@@ -36,8 +36,3 @@ add_action('login_head', function () {
 add_filter('login_headerurl', function () {
     return get_bloginfo('url');
 });
-
-// Set custom login error message.
-add_filter('login_errors', function () {
-    return '<strong>Whoops!</strong> Looks like you missed something there. Have another go.';
-});

@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 6.0.1 (released 2019-08-08)
+
+- Remove custom login error message
+
 ## 6.0.0 (released 2019-06-09)
 
 - Remove disable api feature
