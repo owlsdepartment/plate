@@ -4,7 +4,7 @@
 
 > A theme support plugin for [WordPlate](https://wordplate.github.io).
 
-Plate let you clean up the WordPress administrator dashboard by disabling features your client doesn't use. It provides helpers to customize the dashboard footer text and the login form logo. The plugin will sanitize uploaded file names.
+The Plate plugin disables features in the WordPress administrator dashboard your client doesn't need. It provides helpers such as customization of the dashboard footer text and custom login form logo.
 
 [![Total Downloads](https://badgen.net/packagist/dt/wordplate/plate)](https://packagist.org/packages/wordplate/plate)
 [![Latest Version](https://badgen.net/github/release/wordplate/plate)](https://github.com/wordplate/plate/releases)
