@@ -6,7 +6,6 @@
 
 The Plate plugin disables features in the WordPress administrator dashboard your client doesn't need. It provides helpers such as customization of the dashboard footer text and custom login form logo.
 
-[![Build Status](https://badgen.net/travis/wordplate/plate/master)](https://travis-ci.com/wordplate/plate)
 [![Total Downloads](https://badgen.net/packagist/dt/wordplate/plate)](https://packagist.org/packages/wordplate/plate)
 [![Latest Version](https://badgen.net/github/release/wordplate/plate)](https://github.com/wordplate/plate/releases)
 [![License](https://badgen.net/packagist/license/wordplate/plate)](https://packagist.org/packages/wordplate/plate)
